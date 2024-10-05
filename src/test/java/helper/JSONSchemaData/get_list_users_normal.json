@@ -1,60 +1,208 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "array",
-  "items": [
-    {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer"
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "integer"
+    },
+    "per_page": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "total_pages": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
         },
-        "name": {
-          "type": "string"
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
         },
-        "email": {
-          "type": "string"
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
         },
-        "gender": {
-          "type": "string"
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
         },
-        "status": {
-          "type": "string"
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "email",
+            "first_name",
+            "last_name",
+            "avatar"
+          ]
         }
-      },
-      "required": [
-        "id",
-        "name",
-        "email",
-        "gender",
-        "status"
       ]
     },
-    {
+    "support": {
       "type": "object",
       "properties": {
-        "id": {
-          "type": "integer"
-        },
-        "name": {
+        "url": {
           "type": "string"
         },
-        "email": {
-          "type": "string"
-        },
-        "gender": {
-          "type": "string"
-        },
-        "status": {
+        "text": {
           "type": "string"
         }
       },
       "required": [
-        "id",
-        "name",
-        "email",
-        "gender",
-        "status"
+        "url",
+        "text"
       ]
     }
+  },
+  "required": [
+    "page",
+    "per_page",
+    "total",
+    "total_pages",
+    "data",
+    "support"
   ]
 }

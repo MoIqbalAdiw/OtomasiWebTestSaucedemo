@@ -51,33 +51,33 @@ public class ApiStep {
         apiPage.hitApiDeleteUser();
     }
 
-    @And("hit api update data")
-    public void hitApiUpdateData() {
-        apiPage.hitApiUpdateUser();
-    }
+//    @And("hit api update data")
+//    public void hitApiUpdateData() {
+//        apiPage.hitApiUpdateUser();
+//    }
+//
+//    @Then("validation response body update user")
+//    public void validationResponseBodyUpdateUser() {
+//        apiPage.validationResponseBodyUpdateUser();
+//    }
 
-    @Then("validation response body update user")
-    public void validationResponseBodyUpdateUser() {
-        apiPage.validationResponseBodyUpdateUser();
-    }
+//    @And("hit api create new user fail")
+//    public void hitApiCreateNewUserFail() {
+//        apiPage.hitApiFailCreate();
+//    }
 
-    @And("hit api create new user fail")
-    public void hitApiCreateNewUserFail() {
-        apiPage.hitApiFailCreate();
-    }
+//    @And("hit api create new user with invalid email address")
+//    public void hitApiCreateNewUserWithInvalidEmailAddress() {
+//        apiPage.hitApiCreateUserInvalidEmail();
+//    }
 
-    @And("hit api create new user with invalid email address")
-    public void hitApiCreateNewUserWithInvalidEmailAddress() {
-        apiPage.hitApiCreateUserInvalidEmail();
-    }
+//    @And("hit api create new user with invalid gender")
+//    public void hitApiCreateNewUserWithInvalidGender() {
+//        apiPage.hitApiCreateInvalidGender();
+//    }
 
-    @And("hit api create new user with invalid gender")
-    public void hitApiCreateNewUserWithInvalidGender() {
-        apiPage.hitApiCreateInvalidGender();
-    }
-
-    @And("hit api get previous deleted user")
-    public void hitApiGetPreviousDeletedUser() {
-        apiPage.hitApiGetPreviousUser();
-    }
+//    @And("hit api get previous deleted user")
+//    public void hitApiGetPreviousDeletedUser() {
+//        apiPage.hitApiGetPreviousUser();
+//    }
 }
