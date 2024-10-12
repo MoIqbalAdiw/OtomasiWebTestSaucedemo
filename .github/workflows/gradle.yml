@@ -32,11 +32,11 @@ jobs:
       uses: nanasess/setup-chromedriver@v2.2.2
           
     # setup gradlew
-      - name: Setup Java - Gradle
-        uses: yumemi-inc/setup-java-gradle@v1.0.0
+    - name: Setup Java - Gradle
+      uses: yumemi-inc/setup-java-gradle@v1.0.0
     
-    # - name: Setup gradlew
-    #   run: chmod +x gradlew 
+    - name: Setup gradlew
+      run: chmod +x gradlew 
       
     # Execute gradle command for running cucumber test
     - name: Execute Test
