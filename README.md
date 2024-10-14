@@ -15,3 +15,7 @@ How to Run =
 
 Project already set to CI CD by push or pull commit via file "main.yml" on folder workflow
 SS git hub action on auto run test : 
+![image](https://github.com/user-attachments/assets/7631232e-8d02-4303-bbd1-4989ff8c000c)
+![image](https://github.com/user-attachments/assets/23340f6d-cecc-45e8-8f21-5cd684c4cc2f)
+![image](https://github.com/user-attachments/assets/22ac523e-7526-4a16-a3eb-19dcd9e73034)
+
