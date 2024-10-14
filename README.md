@@ -12,3 +12,6 @@ How to Run =
 1. via IntellijIDEA : open project> run project from file feature "api.feature" to run API testing; run project from file feature "web.feature" to run WebUI testing
 
 2. via Terminal : go to project directory "Otomasi-tes-API-WebUI" > type "./gradlew apiTest" to run API testing; type "./gradlew webTest" to run WebUI testing
+
+Project already set to CI CD by push or pull commit via file "main.yml" on folder workflow
+SS git hub action on auto run test : 
